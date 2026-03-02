@@ -8,5 +8,6 @@ class prob4{
             value[i] = input.nextInt();
         }
         System.out.println(Math.max(value[0],Math.max(value[1], value[2])));
+        input.close();
     }
 }
