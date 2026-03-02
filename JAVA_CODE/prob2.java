@@ -4,5 +4,6 @@ class prob2{
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
         System.out.println("Hello, " + name);
+        input.close();
     }
 }
